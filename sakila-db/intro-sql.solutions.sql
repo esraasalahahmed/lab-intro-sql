@@ -4,7 +4,13 @@ USE sakila;
 
 -- 2 Get all the data from tables actor, film and customer.
 SELECT *
-FROM actor, film, customer;
+FROM actor;
+
+SELECT *
+FROM film; 
+
+SELECT *
+FROM customer;
 
 
 -- 3 Get film titles.
